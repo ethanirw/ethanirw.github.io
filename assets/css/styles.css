@@ -10,6 +10,25 @@ body {
     background-color: #fff;
 }
 
+html {
+    scrollbar-width: thin;
+    scrollbar-color: lightgray white;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
 a {
     font-family: 'Patrick Hand', serif;
     text-decoration: none;

@@ -16,6 +16,20 @@ body {
     align-items: center;
 }
 
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
 .navbar {
     list-style-type: none;
     overflow: hidden;
